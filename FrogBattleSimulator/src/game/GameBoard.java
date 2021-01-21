@@ -38,7 +38,7 @@ public class GameBoard extends JFrame
     {
         super.paint(g);
 
-        // Неуспях да удебеля само жабите гардове, затова удебелих всички по-малко.
+        // Не успях да удебеля само жабите гардове, затова удебелих всички по-малко.
         ((Graphics2D) g).setStroke(new BasicStroke(2.5f));
 
         for (int row = 0; row < 5; row++)
